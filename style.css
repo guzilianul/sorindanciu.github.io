@@ -1,0 +1,292 @@
+body {
+    margin: 0 auto;
+      font-family: "Asap", sans-serif;
+      color:#989898;
+}
+
+.fundal {
+	background-image: url(siriufundal.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.zone {
+    /*padding:30px 50px;*/
+    /*cursor:pointer;*/
+    color:#FFF;
+    font-size:2em;
+    transition: all 0.3s linear;
+}
+
+.zone1:hover{
+  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 25px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-decoration: none solid rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-shadow: 2px 2px #000000;
+	text-align: center;
+}
+
+.padcontact {
+	padding-left:30px;
+	padding-right: 700px;
+}
+
+#demo {
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+
+
+.green{
+  background-color:#6fb936;
+}
+        .thumb{
+            margin-bottom: 30px;
+        }
+        
+        .page-top{
+            margin-top:85px;
+        }
+
+   
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+        
+ 
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    .modal-header {
+   
+     border-bottom: none;
+}
+    .modal-title {
+        color:#000;
+    }
+    .modal-footer{
+      display:none;  
+    }
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav1 {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 0.7em;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav1 {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.sus {
+	text-decoration:;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.pad {
+	padding-top: 20px;
+}
+
+#contatti{
+  background-color: #DCDCDC;
+  letter-spacing: 2px;
+  }
+#contatti a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (max-width: 575.98px) {
+
+  #contatti{padding-bottom: 800px;}
+  #contatti .maps iframe{
+    width: 100%;
+    height: 450px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+
+   #contatti{padding-bottom: 800px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+ }
+
+@media (min-width: 768px) {
+
+  #contatti{padding-bottom: 350px;}
+
+  #contatti .maps iframe{
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contatti{padding-bottom: 200px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 700px;
+   }
+}
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
+
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+.container1 {
+    /*show heigh: auto*/
+    height: 50vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green {
+    background: #FFFFFF;"; /* Old browsers */
+}
+
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red {
+    background: #C655BE; /* Old browsers */
+    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
+    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow {
+    background: #F3AAAA; /* Old browsers */
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue {
+    background: #7abcff; /* Old browsers */
+    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+}
